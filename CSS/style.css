@@ -6,6 +6,61 @@ h3{
 }
 h2{
     font-size: 40px !important;
-    background-color: black !important ;
+    background-color: pink !important ;
     color: white !important;
 }
+
+.t_transfrom_upper{
+    text-transform: uppercase;
+}
+
+.t_transfrom_lower{
+    text-transform: lowercase;
+}
+
+.t_transfrom_captalize{
+    text-transform: captalize;
+}
+
+ .t_transfrom_upper{
+            text-transform: uppercase;
+        }
+        .t_transfrom_lower{
+            text-transform: lowercase;
+        }
+        .t_transfrom_capitalize{
+            text-transform: capitalize;
+        }
+        .t_decor_line{
+            text-decoration: line-through overline underline;
+        }
+        .t_right{
+            text-align: right;
+        }
+        .t_center{
+            text-align: center;
+        }
+        .t_shadow{
+            color: palegoldenrod;
+            text-shadow: 5px 5px 10px gold;
+            font-size: 40px;
+            text-align: center;
+        }
+        .t_indent{
+            text-indent: 160px;
+        }
+        .letter_space{
+            letter-spacing: 10px;
+        }
+        .word_space{
+            word-spacing: 30px;
+        }
+        .line_height{
+            line-height: 25px;
+        }
+        .t_shadow{
+            color: blue;
+            text-shadow: 5px 5px 10px red;
+            font-size: 50px;
+            text-align: center;
+        }
