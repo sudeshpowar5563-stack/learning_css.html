@@ -64,3 +64,46 @@ h2{
             font-size: 50px;
             text-align: center;
         }
+
+        #t_color{
+            color: blue;
+        }
+        #t_size{
+            font-size: 150px;
+        }
+        .t_color{
+            color: brown;
+        }
+        .t_size{
+            font-size: 50px;
+        }
+        .t_shadow{
+            font-size: 50px;
+            
+
+        }
+        
+        .b_shadow{
+            box-shadow: 10px 10px 10px;
+        }
+        .img_ratio{
+            width: 400px;
+            height: 400px;
+        }
+        .d_shadow{
+            filter:drop-shadow(3px 4px 4px blue)
+        }
+        .b_prop{
+            border: 13px double yellowgreen;
+        }
+
+
+        .b_radius{
+            border-radius: 30px ;
+            border-top-left-radius:70px;
+             border-top-right-radius: 50px
+              border-bottom_right-radius: 40px
+              border-bottom_left-radius: 30px
+         }
+
+       
