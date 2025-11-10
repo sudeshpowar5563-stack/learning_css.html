@@ -1,109 +1,148 @@
-
-h3{
+h3 {
     font-size: 40px;
     background-color: aquamarine;
     color: red;
 }
-h2{
+
+h2 {
     font-size: 40px !important;
-    background-color: pink !important ;
+    background-color: pink !important;
     color: white !important;
 }
 
-.t_transfrom_upper{
+.t_transfrom_upper {
     text-transform: uppercase;
 }
 
-.t_transfrom_lower{
+.t_transfrom_lower {
     text-transform: lowercase;
 }
 
-.t_transfrom_captalize{
+.t_transfrom_captalize {
     text-transform: captalize;
 }
 
- .t_transfrom_upper{
-            text-transform: uppercase;
-        }
-        .t_transfrom_lower{
-            text-transform: lowercase;
-        }
-        .t_transfrom_capitalize{
-            text-transform: capitalize;
-        }
-        .t_decor_line{
-            text-decoration: line-through overline underline;
-        }
-        .t_right{
-            text-align: right;
-        }
-        .t_center{
-            text-align: center;
-        }
-        .t_shadow{
-            color: palegoldenrod;
-            text-shadow: 5px 5px 10px gold;
-            font-size: 40px;
-            text-align: center;
-        }
-        .t_indent{
-            text-indent: 160px;
-        }
-        .letter_space{
-            letter-spacing: 10px;
-        }
-        .word_space{
-            word-spacing: 30px;
-        }
-        .line_height{
-            line-height: 25px;
-        }
-        .t_shadow{
-            color: blue;
-            text-shadow: 5px 5px 10px red;
-            font-size: 50px;
-            text-align: center;
-        }
+.t_transfrom_upper {
+    text-transform: uppercase;
+}
 
-        #t_color{
-            color: blue;
-        }
-        #t_size{
-            font-size: 150px;
-        }
-        .t_color{
-            color: brown;
-        }
-        .t_size{
-            font-size: 50px;
-        }
-        .t_shadow{
-            font-size: 50px;
-            
+.t_transfrom_lower {
+    text-transform: lowercase;
+}
 
-        }
-        
-        .b_shadow{
-            box-shadow: 10px 10px 10px;
-        }
-        .img_ratio{
-            width: 400px;
-            height: 400px;
-        }
-        .d_shadow{
-            filter:drop-shadow(3px 4px 4px blue)
-        }
-        .b_prop{
-            border: 13px double yellowgreen;
-        }
+.t_transfrom_capitalize {
+    text-transform: capitalize;
+}
+
+.t_decor_line {
+    text-decoration: line-through overline underline;
+}
+
+.t_right {
+    text-align: right;
+}
+
+.t_center {
+    text-align: center;
+}
+
+.t_shadow {
+    color: palegoldenrod;
+    text-shadow: 5px 5px 10px gold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.t_indent {
+    text-indent: 160px;
+}
+
+.letter_space {
+    letter-spacing: 10px;
+}
+
+.word_space {
+    word-spacing: 30px;
+}
+
+.line_height {
+    line-height: 25px;
+}
+
+.t_shadow {
+    color: blue;
+    text-shadow: 5px 5px 10px red;
+    font-size: 50px;
+    text-align: center;
+}
+
+#t_color {
+    color: blue;
+}
+
+#t_size {
+    font-size: 150px;
+}
+
+.t_color {
+    color: brown;
+}
+
+.t_size {
+    font-size: 50px;
+}
+
+.t_shadow {
+    font-size: 50px;
 
 
-        .b_radius{
-            border-radius: 30px ;
-            border-top-left-radius:70px;
-             border-top-right-radius: 50px
-              border-bottom_right-radius: 40px
-              border-bottom_left-radius: 30px
-         }
+}
 
-       
+.b_shadow {
+    box-shadow: 10px 10px 10px;
+}
+
+.img_ratio {
+    width: 400px;
+    height: 400px;
+}
+
+.d_shadow {
+    filter: drop-shadow(3px 4px 4px blue)
+}
+
+.b_prop {
+    border: 13px double yellowgreen;
+}
+
+
+.b_radius {
+    border-radius: 30px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 50px border-bottom_right-radius: 40px border-bottom_left-radius: 30px
+}
+
+/* solid,
+dashed,
+dotted,
+double,
+inset,
+outset  */
+.b_prop {
+    border: 10px double yellowgreen;
+}
+
+.b_radius {
+    border-radius: 10px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 50px border-bottom_right-radius: 40px border-bottom_left-radius: 30px
+}
+
+.b_color {
+    border: 8px double red;
+     border-top-color: blue;
+            border-right-color: aqua;
+            border-bottom-color: bisque;
+            border-left-color: blueviolet; 
+    border-color: blue greenyellow black pink;
+}
