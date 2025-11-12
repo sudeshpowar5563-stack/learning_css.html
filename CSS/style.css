@@ -163,3 +163,157 @@ outset  */
                padding-bottom: 50px;
             
         }
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: aqua;
+            border: 2px solid red;
+            margin-bottom: 20px;
+        }
+
+        .box1 {
+            position: static;
+            
+        }
+
+        .box2 {
+            position: relative;
+            left: 300px;
+            top: 20px;
+        }
+
+        .box3 {
+            position: absolute;
+            left: 300px;
+            top: 20px;
+        }
+
+        .box4 {
+            position: sticky;
+            top: 0;
+        }
+
+        .box5 {
+            position: fixed;
+            right: 10px;
+            bottom: 0;
+        }
+         body {
+            background-color: black;
+            background-image: url(Images/Rose);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: center; */
+
+        }
+            div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: rgb(233, 238, 238);
+            margin-bottom: 40px;
+        }
+
+        .linear {
+            height: 300px;
+            background: linear-gradient( red,white);
+        }
+        .radial{
+            height: 700px;
+            background: radial-gradient(circle,red,rgb(72, 13, 13),rgb(214, 66, 187),yellow);
+
+
+        }
+        .conic{
+            height: 700px;
+            background: conic-gradient(from 90deg,red,rgb(72, 13, 13),rgb(81, 31, 155),yellow);
+            
+        }
+        .flex-items {
+            background-color: blueviolet;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            color: azure;
+            font-size: 50px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: rgb(233, 238, 238);
+            margin-bottom: 40px;
+        }
+
+        .linear {
+            height: 300px;
+            background: linear-gradient( red,white);
+        }
+        .radial{
+            height: 700px;
+            background: radial-gradient(circle,red,rgb(72, 13, 13),rgb(214, 66, 187),yellow);
+
+
+        }
+        .conic{
+            height: 700px;
+            background: conic-gradient(from 90deg,red,rgb(72, 13, 13),rgb(81, 31, 155),yellow);
+            
+        }
+          .box {
+            width: 150px;
+            height: 150px;
+            background-color: aqua;
+            border: 2px solid red;
+            margin-bottom: 20px;
+        }
+
+        .box1 {
+            position: static;
+            
+        }
+
+        .box2 {
+            position: relative;
+            left: 300px;
+            top: 20px;
+        }
+
+        .box3 {
+            position: absolute;
+            left: 300px;
+            top: 20px;
+        }
+
+        .box4 {
+            position: sticky;
+            top: 0;
+        }
+
+        .box5 {
+            position: fixed;
+            right: 10px;
+            bottom: 0;
+        }
+         body {
+            background-color: black;
+            background-image: url(Images/Rose);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        h1 {
+            color: beige;
+        }
