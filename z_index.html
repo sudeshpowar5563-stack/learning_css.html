@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+            margin-top: 100px;
+
+        }
+
+        div {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            border: 3px solid rgb(246, 242, 242);
+            border-radius: 100px;
+        }
+
+        .blue {
+            background-color: blue;
+            left: 40px;
+            z-index: 1;
+        }
+
+        .red {
+            background-color: red;
+            left: 80px;
+            z-index: 5;
+        }
+
+        /* .red:hover{
+            background-color: red;
+            left: 80px;
+            z-index: 5;
+         } */
+        .green {
+            background-color: green;
+            left: 120px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="blue">blue</div>
+        <div class="red">red</div>
+        <div class="green">green</div>
+
+    </div>
+
+</body>
+
+</html>

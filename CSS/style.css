@@ -317,3 +317,20 @@ outset  */
         h1 {
             color: beige;
         }
+         p {
+            font-size: 20px;
+        }
+
+        .f_family {
+            font-family: monospace;
+            font-weight: 900;
+        }
+
+        .f_family2 {
+            font-family: cursive;
+
+        }
+
+        .f_family3 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
